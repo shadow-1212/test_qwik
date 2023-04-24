@@ -3,7 +3,7 @@ import { QwikCityProvider, RouterOutlet, ServiceWorkerRegister } from '@builder.
 import { RouterHead } from './components/router-head/router-head';
 
 import './global.css';
-
+import 'virtual:uno.css';
 export default component$(() => {
   /**
    * The root of a QwikCity site always start with the <QwikCityProvider> component,
