@@ -8,7 +8,7 @@ export const Navigation = component$(() => {
           <div>
               <ul class={"flex gap-x-20 list-none"}>
                   <li><Link href="/"> Home</Link></li>
-                  <li><Link href="/tester">Tester</Link></li>
+                  <li><Link href="/index@site">Tester</Link></li>
                   <li>About</li>
               </ul>
           </div>

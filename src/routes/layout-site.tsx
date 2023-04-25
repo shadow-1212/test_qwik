@@ -11,10 +11,12 @@ export const useServerTimeLoader = routeLoader$(() => {
 
 export default component$(() => {
   return (
-    <div class="page">
-      <main>
+    <div class="page min-h-screen flex flex-col justify-between">
+      <main class="flex flex-col h-full grow ">
           <Navigation/>
-        <Slot />
+          <div class="flex flex-col grow">
+              <Slot/>
+          </div>
       </main>
       <div class="">
         <div class="">
